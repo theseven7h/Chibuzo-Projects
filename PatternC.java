@@ -4,10 +4,11 @@ public class PatternC {
 			for(int spc = 6; spc >= row; spc--) {
 				System.out.print(" ");
 			}
-			for(int num = 1; num <= row; num++) {
-				System.out.print(num);
+			for(int num = row; num >= 1; num--) {
+				System.out.print(" " + num );
 			}
 			System.out.println();
 		}
 	}
 }
+    
