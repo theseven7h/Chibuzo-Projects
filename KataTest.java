@@ -7,7 +7,10 @@ public class KataTest {
 		System.out.print("Enter number: ");
 		int number1 = input.nextInt();
 		//int number2 = input.nextInt();
+
 		//Uncomment number2 input if needed
+
+		System.out.println(Sun.findMultiple(number1));
 
 		System.out.println(Kata.isSquare(number1));
 

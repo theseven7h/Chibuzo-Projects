@@ -12,6 +12,15 @@ public class NumberArray {
 		for (int count = 0; count < 5; count++) {
 			System.out.println(numbers[count]);
 		}
+		int sum = 0;
+		for (int count = 0; count < 5; count++) {
+			sum += numbers[count];
+		}
+
+		System.out.println();
+		System.out.println();
+		System.out.println("Sum is " + sum);
+
 	}
 }
 	
