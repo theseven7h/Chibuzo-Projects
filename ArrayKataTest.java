@@ -18,6 +18,8 @@ public class ArrayKataTest {
 		//System.out.print(ArrayKata.sumOfEvenNumbers(numbers));			
 		//System.out.print(ArrayKata.sumOfOddNumbers(numbers));					
 		//System.out.print(Arrays.toString(ArrayKata.maximumAndMinimumOf(numbers)));
-		System.out.print(ArrayKata.noOfOddNumbers(numbers));
+		//System.out.print(ArrayKata.noOfOddNumbersIn(numbers));
+		System.out.print(ArrayKata.noOfEvenNumbersIn(numbers));
+
 	}
 }
