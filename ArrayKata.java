@@ -52,7 +52,7 @@ public class ArrayKata {
 	static int noOfOddNumbersIn(int[] numbers) {
 		int noOfOdd = 0;
 		for (int i = 0; i < numbers.length; i++) {
-			if (numbers[i] % 2 != 0 && numbers[i] != 1) noOfOdd++;	
+			if (numbers[i] != 1 && numbers[i] % 2 != 0 && numbers[i] != 1) noOfOdd++;	
 		}
 		return noOfOdd;
 	}
@@ -74,14 +74,14 @@ public class ArrayKata {
 		return evenNumbers;
 	}
 
-	/*static int[] oddNumbersIn(int[] numbers) {
+	static int[] oddNumbersIn(int[] numbers) {
 		int[] oddNumbers = new int[noOfOddNumbersIn(numbers)];
 		int count = 0;
 		for (int j : numbers) {
-			if (j % 2 == 1) oddNumbers[count++] = j;
+			if (j != 1 && j % 2 == 1) oddNumbers[count++] = j;
 		}
 		return oddNumbers;
-	}*/
+	}
 
 	static int[] squareNumbersIn(int[] numbers) {
 		int[] squares = new int[numbers.length];
