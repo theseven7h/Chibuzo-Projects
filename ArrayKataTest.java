@@ -14,6 +14,7 @@ public class ArrayKataTest {
 		//System.out.print(ArrayKata.maximumIn(numbers));
 		//System.out.print(ArrayKata.minimumIn(numbers));
 		//System.out.print(ArrayKata.sumOf(numbers));
-		System.out.print(ArrayKata.sumOfOddNumbers(numbers));
+		//System.out.print(ArrayKata.sumOfOddNumbers(numbers));		
+		System.out.print(ArrayKata.sumOfEvenNumbers(numbers));
 	}
 }

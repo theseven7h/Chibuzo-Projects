@@ -23,6 +23,14 @@ public class ArrayKata {
 		return sum;
 	}	
 
+	static int sumOfEvenNumbers(int[] numbers) {
+		int sumOfEven = 0;
+		for (int i = 0; i < numbers.length; i++) {
+			if (numbers[i] % 2 == 0) sumOfEven += numbers[i];	
+		}
+		return sumOfEven;
+	}
+
 	static int sumOfOddNumbers(int[] numbers) {
 		int sumOfOdd = 0;
 		for (int i = 0; i < numbers.length; i++) {
@@ -30,6 +38,27 @@ public class ArrayKata {
 		}
 		return sumOfOdd;
 	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
