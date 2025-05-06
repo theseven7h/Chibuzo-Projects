@@ -19,7 +19,19 @@ public class ArrayKataTest {
 		//System.out.print(ArrayKata.sumOfOddNumbers(numbers));					
 		//System.out.print(Arrays.toString(ArrayKata.maximumAndMinimumOf(numbers)));
 		//System.out.print(ArrayKata.noOfOddNumbersIn(numbers));
-		System.out.print(ArrayKata.noOfEvenNumbersIn(numbers));
+		//System.out.print(ArrayKata.noOfEvenNumbersIn(numbers));
+		System.out.print(Arrays.toString(ArrayKata.evenNumbersIn(numbers)));
+
+
+		/*int[] a = {2, 4, 5, 6, 7};
+		int[] myEven = ArrayKata.evenNumbersIn(numbers);
+
+		for (int each : myEven) {
+			System.out.println(each);
+		}*/
+
+		
+
 
 	}
 }

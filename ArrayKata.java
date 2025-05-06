@@ -65,22 +65,13 @@ public class ArrayKata {
 		return noOfEven;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	static int[] evenNumbersIn(int[] numbers) {
+		noOfEvenNumbersIn(numbers);
+		int[] evenNumbers = new int[noOfEvenNumbersIn(numbers)];
+		int count = 0;
+		for (int j : numbers) {
+			if (j % 2 == 0) evenNumbers[count++] = j;
+		}
+		return evenNumbers;
+	}
 }
