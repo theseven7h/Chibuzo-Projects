@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class ArrayKataTest {
 	public static void main(String[] args) {
@@ -14,7 +15,9 @@ public class ArrayKataTest {
 		//System.out.print(ArrayKata.maximumIn(numbers));
 		//System.out.print(ArrayKata.minimumIn(numbers));
 		//System.out.print(ArrayKata.sumOf(numbers));
-		//System.out.print(ArrayKata.sumOfOddNumbers(numbers));		
-		System.out.print(ArrayKata.sumOfEvenNumbers(numbers));
+		//System.out.print(ArrayKata.sumOfEvenNumbers(numbers));			
+		//System.out.print(ArrayKata.sumOfOddNumbers(numbers));					
+		//System.out.print(Arrays.toString(ArrayKata.maximumAndMinimumOf(numbers)));
+		
 	}
 }
