@@ -20,8 +20,9 @@ public class ArrayKataTest {
 		//System.out.print(Arrays.toString(ArrayKata.maximumAndMinimumOf(numbers)));
 		//System.out.print(ArrayKata.noOfOddNumbersIn(numbers));
 		//System.out.print(ArrayKata.noOfEvenNumbersIn(numbers));
-		System.out.print(Arrays.toString(ArrayKata.evenNumbersIn(numbers)));
-
+		//System.out.print(Arrays.toString(ArrayKata.evenNumbersIn(numbers)));
+		//System.out.print(Arrays.toString(ArrayKata.oddNumbersIn(numbers)));
+		System.out.print(Arrays.toString(ArrayKata.squareNumbersIn(numbers)));
 
 		/*int[] a = {2, 4, 5, 6, 7};
 		int[] myEven = ArrayKata.evenNumbersIn(numbers);
