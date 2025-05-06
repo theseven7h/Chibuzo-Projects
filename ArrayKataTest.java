@@ -12,6 +12,7 @@ public class ArrayKataTest {
 			numbers[i] = sc.nextInt();
 		}
 		//System.out.print(ArrayKata.maximumIn(numbers));
-		System.out.print(ArrayKata.minimumIn(numbers));
+		//System.out.print(ArrayKata.minimumIn(numbers));
+		System.out.print(ArrayKata.sumOf(numbers));
 	}
 }
